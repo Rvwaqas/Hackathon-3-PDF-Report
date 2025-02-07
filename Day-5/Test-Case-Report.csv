@@ -1,0 +1,27 @@
+Here are the test case tables for the specified scenarios:,,,,,,,,
+Test Summary,,,,,,,,
+"This report provides a detailed overview of the test execution results for the following modules: Signup Form, Add to Cart, Payment Method, and Responsiveness. The tests were conducted to ensure the functionality, usability, and reliability of the application across different scenarios and devices.",,,,,,,,
+Signup Form,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate signup form with valid credentials,Open signup page > Enter valid details > Submit,User registered successfully,User registered successfully,Passed,Low,-,No issues found
+TC002,Test signup form with invalid email,Open signup page > Enter invalid email > Submit,Error message displayed,Error message displayed,Passed,Medium,-,Handled gracefully
+TC003,Check ,Open signup page > Enter email address> Submit,Error message displayed,Error message displayed,Passed,High,-,Works as expected
+,Same Email enter,,,,,,,
+Add to Cart,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC004,Validate add to cart functionality,Open Shop page > Click product  > click add to cart,Cart updates with added product,Cart updates as expected,Passed,High,-,Works as expected
+TC005,Test add to add or subtract product ,Open cart page > click on plus > Verify cart content update,Error Cart updates correctly,Error Cart updates correctly,Passed,Medium,-,Handled gracefully
+TC006,Check cart update on product removal,Open cart page > Remove product > Verify cart contents,Cart updates correctly,Cart updates correctly,Passed,Low,-,No issues found
+Payment Method,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC007,Validate payment with valid credit card,Open checkout page > Enter valid credit card details > Submit,Payment successful,Payment successful,Passed,High,-,Works as expected
+TC008,Test payment with invalid credit card,Open checkout page > Enter invalid credit card details > Submit,Error message displayed,Error message displayed,Passed,Medium,-,Handled gracefully
+TC009,Check payment with Stride,Open checkout page > Select PayPal > Complete payment,Payment successful,Payment successful,Passed,Low,-,No issues found
+Responsiveness,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC010,Ensure responsiveness on mobile,Resize browser window to mobile size > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,-,Test successful
+TC011,Test responsiveness on tablet,Resize browser window to tablet size > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Low,-,No issues found
+TC012,Check responsiveness on desktop,Resize browser window to desktop size > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,High,-,Works as expected
+­Conclusion :,,,,,,,,
+,,,,,,,,
+"All test cases were executed successfully with no failures. The application performed as expected across all tested functionalities. No critical issues were found, and all scenarios were handled gracefully.",,,,,,,,
